@@ -1,0 +1,161 @@
+*{
+    /* background-color: #f6f5fa; */
+    background-color: black;
+}
+#title{
+    background-color: #f6f5fa;
+    color: black;
+}
+
+.title-vid{
+    text-align: center;
+}
+
+body{
+    font-family: "Montserrat";
+}
+
+.container-fluid{
+    padding: 1% 10%;
+}
+
+
+/* navigation bar */
+
+.navbar{
+    padding-bottom: 2rem;
+}
+.nav-item{
+    padding: 0px 18px;
+    color: whitesmoke;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 2rem;
+    color: #9a95d1;
+}
+
+.navbar-brand:hover{
+    color: #696692;
+}
+
+.navbar-nav li a{
+    font-family: "Montserrat Medium";
+    color: whitesmoke;
+}
+
+.navbar-nav li a:hover{
+    color: #9a95d1;
+}
+
+/* about me */
+#aboutme{
+    padding: 10% 10%;
+    color: whitesmoke;
+    font-family: 'Baskervville', serif;
+}
+
+#aboutme img{
+    width: 70%;
+    border-radius: 50%;
+    margin-left: 10%;
+}
+
+#aboutme h1{
+    font-size: 3rem;
+    /* background-color: #9a95d1; */
+    color: #9a95d1;
+}
+
+#aboutme p{
+    font-size: 1.5rem;
+    /* color: #9a95d1; */
+}
+
+.spacing{
+    margin-top: 7%;
+}
+
+/* #aboutme .col-lg-6{
+    background-color: #f6f5fa;
+} */
+
+
+/* education */
+#edu{
+    padding: 15% 15%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: whitesmoke;
+}
+
+#edu p{
+    font-size: 3rem;
+    color: #9a95d1;
+    font-family: "ubuntu";
+}
+
+#edu .col{
+    /* font-family: "ubuntu"; */
+    font-family: "Avant Garde", sans-serif;
+    font-size: 1.8rem;
+    line-height: 2.5;
+}
+
+
+/* footer */
+#footer{
+    text-align: center;
+    padding: 9rem;
+    color: whitesmoke;
+}
+
+/* typing effect */
+
+/* #typing-e{
+    text-align: center;
+} */
+.type{
+    display: inline-block;
+    color: #9a95d1;
+    font-family: "Baskerville";
+}
+.type-effect{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2.5s steps(20, end) forwards, blinking 1s infinite;
+    /* animation-iteration-count: infinite; */
+    white-space: nowrap;
+    border-right: 0.2rem whitesmoke solid;
+    font-size: 1.8rem;
+    width: 0;
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+@keyframes blinking {
+    0%{
+        border-color: whitesmoke;
+    }
+    49%{
+        border-color: whitesmoke;
+    }
+    50%{
+        border-color: transparent;
+    }
+    99%{
+        border-color: transparent;
+    }
+    100%{
+        border-color: whitesmoke;
+    }
+  }
